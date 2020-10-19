@@ -1,0 +1,33 @@
+if(EA0<50){
+    digitalWrite(7, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(5, LOW);
+  }else if(EA0>50 && EA0<300){
+    digitalWrite(7, HIGH);
+    digitalWrite(6, LOW);
+    digitalWrite(5, LOW);
+  }else if(EA0>300 && EA0<420){
+    digitalWrite(7, LOW);
+    digitalWrite(6, HIGH);
+    digitalWrite(5, LOW);
+  }else if(EA0>420 && EA0<500){
+    digitalWrite(7, HIGH);
+    digitalWrite(6, HIGH);
+    digitalWrite(5, LOW);
+  }else if(EA0>500 && EA0<550){
+    digitalWrite(7, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(5, HIGH);
+  }else if(EA0>550 && EA0<600){
+    digitalWrite(7, HIGH);
+    digitalWrite(6, LOW);
+    digitalWrite(5, HIGH);
+  }else if(EA0>600 && EA0<650){
+    digitalWrite(7, LOW);
+    digitalWrite(6, HIGH);
+    digitalWrite(5, HIGH);
+  }else if(EA0>650 && EA0<1000){
+    digitalWrite(7, HIGH);
+    digitalWrite(6, HIGH);
+    digitalWrite(5, HIGH);
+  }
